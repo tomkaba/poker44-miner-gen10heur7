@@ -1,27 +1,20 @@
 {
-  "schema_version": "1",
-  "open_source": true,
-  "model_name": "poker44_gen10heur7",
-  "model_version": "10.7",
-  "framework": "python-heuristic",
-  "license": "MIT",
-  "repo_url": "https://github.com/tomkaba/poker44-miner-gen10heur7",
-  "repo_commit": "c97b5101bc3880c7874e80e2edab6c30788c6e1f",
-  "inference_mode": "remote",
-  "training_data_statement": "No validator-private data used.",
-  "data_attestation": "This miner does not train on validator-private human data.",
-  "private_data_attestation": "This miner does not train on validator-private human data.",
-  "implementation_files": [
-    "models/benchmark_heuristic_profile.json",
-    "neurons/miner.py",
-    "poker44/base/miner.py",
-    "poker44/base/neuron.py",
-    "poker44/miner_heuristics.py",
-    "poker44/utils/config.py",
-    "poker44/utils/misc.py",
-    "poker44/utils/model_manifest.py",
-    "poker44/validator/synapse.py"
-  ],
-  "implementation_sha256": "e9031028cb37ac76da7cfdca10bd82a0bfd3e9ce1172c20554b1069b538e7119",
-  "notes": "Gen10heur7 profile-based heuristic miner."
+    "schema_version": "1",
+    "open_source": true,
+    "model_name": "poker44_gen10heur7",
+    "model_version": "10.7",
+    "framework": "python-heuristic",
+    "license": "MIT",
+    "repo_url": "https://github.com/tomkaba/poker44-miner-gen10heur7",
+    "repo_commit": "5a8a22b380e2d947870e839e515c1254764672b7",
+    "inference_mode": "remote",
+    "training_data_statement": "No validator-private data used.",
+    "data_attestation": "This miner does not train on validator-private human data.",
+    "private_data_attestation": "This miner does not train on validator-private human data.",
+    "implementation_files": [
+        "neurons/miner.py",
+        "poker44/__init__.py"
+    ],
+    "implementation_sha256": "817b0ed15f8791eab0a56746f966f34d6b613afe1f7587d373c530f2a610485c",
+    "notes": "Gen10heur7 profile-based heuristic miner."
 }
